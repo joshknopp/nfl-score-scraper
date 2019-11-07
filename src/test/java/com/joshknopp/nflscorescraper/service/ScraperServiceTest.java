@@ -29,22 +29,22 @@ class ScraperServiceTest {
 	/* *** */
 
 	@Test
-	void getFinalScores08092355ShouldReturnTenOverPhi() {
+	void testGetFinalScores08092355ShouldReturnTenOverPhi() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void getUpcomingScores08081950ShouldReturnTbAtPit()) {
+	void getUpcomingScores08081950ShouldReturnTbAtPit() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void getActiveScores08081950ShouldReturnJaxAtBalHomeLeading()) {
+	void getActiveScores08081950ShouldReturnJaxAtBalHomeLeading() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void getActiveScores08081950ShouldReturnNyjAtNygSuspended()) {
+	void getActiveScores08081950ShouldReturnNyjAtNygSuspended() {
 		fail("Not yet implemented");
 	}
 

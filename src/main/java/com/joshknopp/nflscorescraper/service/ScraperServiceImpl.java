@@ -6,7 +6,6 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.HttpServerErrorException.NotImplemented;
 
 @Service
 public class ScraperServiceImpl implements ScraperService {
@@ -36,7 +35,6 @@ public class ScraperServiceImpl implements ScraperService {
 	private String getScoresArrayAsStringFromDataClob(String dataClob) {
 		String arrayStartString = "scoreStripGames\":[";
 		String arrayEndString = "]";
-		String result = "";
 		int beginIndex = dataClob.indexOf(arrayStartString) + arrayStartString.length();
 		int endIndex = dataClob.indexOf(arrayEndString, beginIndex);
 		return dataClob.substring(beginIndex, endIndex);
