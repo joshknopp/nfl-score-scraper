@@ -10,10 +10,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.io.IOException;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.select.Elements;
-
 @RestController
 public class ScoresController {
 	@Autowired

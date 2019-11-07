@@ -32,7 +32,7 @@ public class ScraperServiceImpl implements ScraperService {
 	public String getUpcomingScores() throws Exception {
 		throw new UnsupportedOperationException();
 	}
-	
+
 	private String getScoresArrayAsStringFromDataClob(String dataClob) {
 		String arrayStartString = "scoreStripGames\":[";
 		String arrayEndString = "]";
