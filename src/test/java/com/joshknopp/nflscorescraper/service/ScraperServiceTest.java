@@ -39,7 +39,12 @@ class ScraperServiceTest {
 	}
 
 	@Test
-	void getActiveScores08081950ShouldReturnJaxAtBalHomeLeading() {
+	void getInProgressScores08081950ShouldReturnJaxAtBal() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void getInProgressScores08081950ShouldReturnJaxAtBalHomeLeading() {
 		fail("Not yet implemented");
 	}
 
